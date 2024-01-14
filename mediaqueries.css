@@ -89,10 +89,6 @@
     #profile{
         height: 87vh;
     }
-
-    .details-container{
-        min-width: initial;
-    }
 }
 
 @media screen and (max-width:900px) and (max-height:600px) and (orientation:landscape){
@@ -107,6 +103,10 @@
 @media screen and (max-width:700px) {
     #about{
         margin-top: 10rem;
+    }
+
+    .details-container{
+        min-width: initial;
     }
 }
 

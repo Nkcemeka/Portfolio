@@ -16,6 +16,11 @@ html{
     scroll-behavior: smooth;
 }
 
+main{
+    max-width: 1500px;
+    margin: auto;
+}
+
 p{
     color: rgb(85, 85, 85);
 }
@@ -68,6 +73,11 @@ a:hover{
 
 .logo:hover{
     cursor: default;
+}
+
+.logo a:hover{
+    text-decoration: none;
+    color: initial;
 }
 
 /* Hamburger Menu */

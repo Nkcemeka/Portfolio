@@ -7,436 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
-<body>
-    <nav id="desktop-nav">
-        <div class="logo">Chukwuemeka Nkama</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#activities">Activities</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Chukwuemeka Nkama</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#activities" onclick="toggleMenu()">Activities</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
-        </div>
-    </nav>
+<body id="top">
+    <main>
 
-    <section id="profile">
-        <div class="section__pic-container">
-            <img id="profile-pic" src="./assets/profile-pic-emeka.jpg" alt="Chukwuemeka Nkama Profile Picture">
-        </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Chukwuemeka Nkama</h1>
-            <p class="section__text__p2">AI & Software Engineer</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/CV Nkama.pdf')">Download CV</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
-            </div>
-            <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My LinkedIn Profile"
-                class="icon" onclick="location.href='https://www.linkedin.com/in/chukwuemeka-nkama-0203611b2/'">
-                <img src="./assets/github.png" alt="My Github Repo"
-                class="icon" onclick="location.href='https://github.com/Nkcemeka/'">
-            </div>
-        </div>
-    </section>
-
-
-    <section id="about">
-        <p class="section__text__p1"> Get to Know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/profile-pic-emeka2.jpg" 
-                alt="Profile Picture" 
-                class="about-pic">
-            </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" 
-                        alt="experience icon"
-                        class="icon">
-                    <h3>Experience</h3>
-                    <br>2+ Years </br>AI & Software Engineering</p>
-                    </div>
-                    <div class="details-container">
-                        <img src="./assets/education.png" 
-                        alt="Education icon"
-                        class="icon">
-                    <h3 class="pad-vert">Education</h3>
-                    <h4>Carnegie Mellon University</h4>
-                    <div class="pad-vert">Msc. Engineering Artificial Intelligence</div>
-                    <h4>University of Lagos</h4>
-                    Bsc. Mechanical Engineering</p>
-                </div>
-            </div>
-            <div class="text-container">
-                <p class="text-container">
-                    As an AI and software engineer with over two years of experience, 
-                    I've worked on projects in Computer Vision, Audio Programming, NLP, and Data Science. 
-                    I hold a First Class Mechanical Engineering degree from the University of Lagos and 
-                    a Masters in Engineering Artificial Intelligence from Carnegie Mellon University. 
-                </p>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-        onclick="location.href='./#experience'">
-    </section>
-
-    <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-             <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Software Engineering</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>Python</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>Git</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>Linux</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>C++</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>Docker</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>Pure Data</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">AI Libraries</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>PyTorch</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>Numpy</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>Pandas</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>Tensorflow</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>OpenCV</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon"
-                            class="icon">
-                            <div>
-                                <h3>PIL</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-             </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-        onclick="location.href='./#projects'">
-    </section>
-
-    <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        
-        <div class="experience-details-container">
-        <div class="about-containers">
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/prosthetics.jpeg" alt="project 1"
-                    class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">
-                    3D Prosthetic Reconstruction
-                </h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/Nkcemeka/3D-Prosthetics-Reconstruction'">
-                        Github
-                    </button>
-                </div>
-
-                <div>
-                    <h3>Project Goals</h3>
-                    <p class="text-container">The project aimed to address prosthetic device accessibility in resource-constrained environments, 
-                        leveraging computer vision and photogrammetry. 
-                        The primary goal was to develop a cost-effective solution capable of accurately sizing prosthetic sockets from corresponding images, 
-                        empowering communities with limited design equipment.
-                    </p>
-
-                    <h3>Project Process</h3>
-                    <p class="text-container">
-                        My role involved developing a deep learning model for object detection and size estimation to tackle sizing challenges
-                        in the prosthetic socket. My work also involved generating DXF files with precise measurements all over the contour of interest,
-                        and can be leveraged in 3D CAD tools for further automation.
-                        Subsequently, I actively contributed to a collaborative effort with the Pittsburgh AiPEX lab, 
-                        exploring 3D reconstruction algorithms and advancing an AI system for generating customized prosthetic designs, 
-                        further enhancing accessibility.
-                    </p>
-                </div>
-                
-            </div>
-
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/arco.jpeg" alt="project 1"
-                    class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">
-                    Arco: Sound Synthesis Server
-                </h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/rbdannenberg/arco'">
-                        Github
-                    </button>
-                </div>
-
-                <div>
-                    <h3>Project Goals</h3>
-                    <p class="text-container">In the Arco project, my objective was to showcase its capabilities by writing code to recreate demo music scores from the Resound repertoire. 
-                        This task required proficiency in C++, Linux, Python, and Serpent (a python-like language developed by Professor Dannenberg for real-time systems), demonstrating Arco's prowess in a practical context.
-                    </p>
-
-                    <h3>Project Process</h3>
-                    <p class="text-container">
-                        My role involved coding to illustrate Arco's functionalities and recreate music scores. This required a strong command of C++, Linux, Python, and Serpent. 
-                        The collaborative effort contributed to showcasing Arco's capabilities in generating demo music scores aligned with the Resound repertoire.
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/biometrics.jpeg" alt="project 2"
-                    class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">
-                    Livestock Biometrics
-                </h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/Nschadrack/Cattle-Identification-MP'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/Nschadrack/Cattle-Identification-MP/blob/master/Cattle_identification_using_muzzleprints.pdf'">
-                        Report
-                    </button>
-                </div>
-
-                <div>
-                    <h3>Project Goals</h3>
-                    <p class="text-container">The goal was to enhance cattle identification and verification using deep learning, 
-                        overcoming limitations of traditional methods and scalability challenges in classification neural networks.
-                    </p>
-
-                    <h3>Project Process</h3>
-                    <p class="text-container">
-                        I led the design and training of a Siamese Network, addressing scalability issues with a contrastive loss function. 
-                        Metrics evaluation included false acceptance rate, false rejection rate, and equal error rate. 
-                        The successful implementation emphasized the need to optimize operational aspects for deploying deep learning solutions, 
-                        fostering their commercialization and widespread adoption.
-                    </p>
-                </div>
-            </div>
-
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/piano.jpeg" alt="project 3"
-                    class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">
-                    Piano Transcription
-                </h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/Deep-Learning-Project-Music/Music_Transcription'">
-                        Github
-                    </button>
-                    <button class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://drive.google.com/file/d/1n9NULtk3E22ymLHmmmjRcMkback2Kt1S/view?usp=drive_link'">
-                        Live Demo
-                    </button>
-                </div>
-
-                <div>
-                    <h3>Project Goals</h3>
-                    <p class="text-container">The goal of this project was to develop a system to transcribe audio into music scores 
-                        and MIDI files by re-implementing the work of Taegyun Kwon, Dasaem Jeong, and Juhan Nam.
-                    </p>
-
-                    <h3>Project Process</h3>
-                    <p class="text-container">
-                        My role included setting up the cloud platform for training. This involved familiarity with Linux and Nvidia's 
-                        CUDA toolkit for GPU acceleration. I was also involved in the training of the model and the development of a 
-                        framework to evaluate the impact of label smoothing on the model's bias on different note states.
-                    </p>
-                </div>
-            </div>
-        </div>
-        </div>
-
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-        onclick="location.href='./#activities'">
-    </section>
-
-    <section id="activities">
-        <p class="section__text__p1">other</p>
-        <h1 class="title">Activities</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/studio.jpeg" 
-                alt="Studio Pic" 
-                class="about-pic">
-            </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <!-- <div class="details-container">
-                        <img src="./assets/experience.png" 
-                        alt="experience icon"
-                        class="icon">
-                    <h3>Experience</h3>
-                    <br>2+ Years </br>AI Engineering</p>
-                    </div> -->
-                    <div class="details-container">
-                        <img src="./assets/headphones.png" 
-                        alt="Music headphone icon"
-                        class="icon">
-                    <h3>Musical Works</h3>
-                </div>
-            </div>
-            <div class="text-container">
-                <p class="text-container">
-                    In my free time, I engage in various musical activities. I teach piano, perform at gigs, and produce music. 
-                    Check out my compositions <b><a href="https://www.instagram.com/nk_emeka/">here</a></b> 
-                    and my Youtube channel <b><a href="https://www.youtube.com/@PianoToolz">here</a></b>.
-                </p>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-        onclick="location.href='./#contact'">
-    </section>
-
-    <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img src="./assets/email.png" alt="Email icon"
-                class="icon contact-icon email-icon">
-                <p><a href="mailto:nkcemeka@gmail.com">nkcemeka@gmail.com</a></p>
-            </div>
-
-            <div class="contact-info-container">
-                <img src="./assets/linkedin.png" alt="LinkedIn icon"
-                class="icon contact-icon">
-                <p><a href="https://www.linkedin.com/in/chukwuemeka-nkama-0203611b2/">LinkedIn</a></p>
-            </div>
-
-        </div>
-    </section>
-
-    <footer>
-        <nav>
-            <div class="nav-links-container">
+        <nav id="desktop-nav">
+            <div class="logo"><a href="#top">Chukwuemeka Nkama</a></div>
+            <div>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
@@ -446,8 +22,435 @@
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2023 Chukwuemeka Nkama. All Rights Reserved.</p>
-    </footer>
+        <nav id="hamburger-nav">
+            <div class="logo">Chukwuemeka Nkama</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#activities" onclick="toggleMenu()">Activities</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+    
+        <section id="profile">
+            <div class="section__pic-container">
+                <img id="profile-pic" src="./assets/profile-pic-emeka.jpg" alt="Chukwuemeka Nkama Profile Picture">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Chukwuemeka Nkama</h1>
+                <p class="section__text__p2">AI & Software Engineer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/CV Nkama.pdf')">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="My LinkedIn Profile"
+                    class="icon" onclick="location.href='https://www.linkedin.com/in/chukwuemeka-nkama-0203611b2/'">
+                    <img src="./assets/github.png" alt="My Github Repo"
+                    class="icon" onclick="location.href='https://github.com/Nkcemeka/'">
+                </div>
+            </div>
+        </section>
+    
+    
+        <section id="about">
+            <p class="section__text__p1"> Get to Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/profile-pic-emeka2.jpg" 
+                    alt="Profile Picture" 
+                    class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" 
+                            alt="experience icon"
+                            class="icon">
+                        <h3>Experience</h3>
+                        <br>2+ Years </br>AI & Software Engineering</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" 
+                            alt="Education icon"
+                            class="icon">
+                        <h3 class="pad-vert">Education</h3>
+                        <h4>Carnegie Mellon University</h4>
+                        <div class="pad-vert">Msc. Engineering Artificial Intelligence</div>
+                        <h4>University of Lagos</h4>
+                        Bsc. Mechanical Engineering</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="text-container">
+                        As an AI and software engineer with over two years of experience, 
+                        I've worked on projects in Computer Vision, Audio Programming, NLP, and Data Science. 
+                        I hold a First Class Mechanical Engineering degree from the University of Lagos and 
+                        a Masters in Engineering Artificial Intelligence from Carnegie Mellon University. 
+                    </p>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#experience'">
+        </section>
+    
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                 <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Software Engineering</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>Git</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>Linux</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>C++</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>Docker</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>Pure Data</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">AI Libraries</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>PyTorch</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>Numpy</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>Pandas</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>Tensorflow</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>OpenCV</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon"
+                                class="icon">
+                                <div>
+                                    <h3>PIL</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#projects'">
+        </section>
+    
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            
+            <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/prosthetics.jpeg" alt="project 1"
+                        class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">
+                        3D Prosthetic Reconstruction
+                    </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/Nkcemeka/3D-Prosthetics-Reconstruction'">
+                            Github
+                        </button>
+                    </div>
+    
+                    <div>
+                        <h3>Project Goals</h3>
+                        <p class="text-container">The project aimed to address prosthetic device accessibility in resource-constrained environments, 
+                            leveraging computer vision and photogrammetry. 
+                            The primary goal was to develop a cost-effective solution capable of accurately sizing prosthetic sockets from corresponding images, 
+                            empowering communities with limited design equipment.
+                        </p>
+    
+                        <h3>Project Process</h3>
+                        <p class="text-container">
+                            My role involved developing a deep learning model for object detection and size estimation to tackle sizing challenges
+                            in the prosthetic socket. My work also involved generating DXF files with precise measurements all over the contour of interest,
+                            and can be leveraged in 3D CAD tools for further automation.
+                            Subsequently, I actively contributed to a collaborative effort with the Pittsburgh AiPEX lab, 
+                            exploring 3D reconstruction algorithms and advancing an AI system for generating customized prosthetic designs, 
+                            further enhancing accessibility.
+                        </p>
+                    </div>
+                    
+                </div>
+    
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/arco.jpeg" alt="project 1"
+                        class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">
+                        Arco: Sound Synthesis Server
+                    </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/rbdannenberg/arco'">
+                            Github
+                        </button>
+                    </div>
+    
+                    <div>
+                        <h3>Project Goals</h3>
+                        <p class="text-container">In the Arco project, my objective was to showcase its capabilities by writing code to recreate demo music scores from the Resound repertoire. 
+                            This task required proficiency in C++, Linux, Python, and Serpent (a python-like language developed by Professor Dannenberg for real-time systems), demonstrating Arco's prowess in a practical context.
+                        </p>
+    
+                        <h3>Project Process</h3>
+                        <p class="text-container">
+                            My role involved coding to illustrate Arco's functionalities and recreate music scores. This required a strong command of C++, Linux, Python, and Serpent. 
+                            The collaborative effort contributed to showcasing Arco's capabilities in generating demo music scores aligned with the Resound repertoire.
+                        </p>
+                    </div>
+    
+                </div>
+    
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/biometrics.jpeg" alt="project 2"
+                        class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">
+                        Livestock Biometrics
+                    </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/Nschadrack/Cattle-Identification-MP'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/Nschadrack/Cattle-Identification-MP/blob/master/Cattle_identification_using_muzzleprints.pdf'">
+                            Report
+                        </button>
+                    </div>
+    
+                    <div>
+                        <h3>Project Goals</h3>
+                        <p class="text-container">The goal was to enhance cattle identification and verification using deep learning, 
+                            overcoming limitations of traditional methods and scalability challenges in classification neural networks.
+                        </p>
+    
+                        <h3>Project Process</h3>
+                        <p class="text-container">
+                            I led the design and training of a Siamese Network, addressing scalability issues with a contrastive loss function. 
+                            Metrics evaluation included false acceptance rate, false rejection rate, and equal error rate. 
+                            The successful implementation emphasized the need to optimize operational aspects for deploying deep learning solutions, 
+                            fostering their commercialization and widespread adoption.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/piano.jpeg" alt="project 3"
+                        class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">
+                        Piano Transcription
+                    </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/Deep-Learning-Project-Music/Music_Transcription'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://drive.google.com/file/d/1n9NULtk3E22ymLHmmmjRcMkback2Kt1S/view?usp=drive_link'">
+                            Live Demo
+                        </button>
+                    </div>
+    
+                    <div>
+                        <h3>Project Goals</h3>
+                        <p class="text-container">The goal of this project was to develop a system to transcribe audio into music scores 
+                            and MIDI files by re-implementing the work of Taegyun Kwon, Dasaem Jeong, and Juhan Nam.
+                        </p>
+    
+                        <h3>Project Process</h3>
+                        <p class="text-container">
+                            My role included setting up the cloud platform for training. This involved familiarity with Linux and Nvidia's 
+                            CUDA toolkit for GPU acceleration. I was also involved in the training of the model and the development of a 
+                            framework to evaluate the impact of label smoothing on the model's bias on different note states.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+    
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#activities'">
+        </section>
+    
+        <section id="activities">
+            <p class="section__text__p1">other</p>
+            <h1 class="title">Activities</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/studio.jpeg" 
+                    alt="Studio Pic" 
+                    class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <!-- <div class="details-container">
+                            <img src="./assets/experience.png" 
+                            alt="experience icon"
+                            class="icon">
+                        <h3>Experience</h3>
+                        <br>2+ Years </br>AI Engineering</p>
+                        </div> -->
+                        <div class="details-container">
+                            <img src="./assets/headphones.png" 
+                            alt="Music headphone icon"
+                            class="icon">
+                        <h3>Musical Works</h3>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="text-container">
+                        In my free time, I engage in various musical activities. I teach piano, perform at gigs, and produce music. 
+                        Check out my compositions <b><a href="https://www.instagram.com/nk_emeka/">here</a></b> 
+                        and my Youtube channel <b><a href="https://www.youtube.com/@PianoToolz">here</a></b>.
+                    </p>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#contact'">
+        </section>
+    
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="Email icon"
+                    class="icon contact-icon email-icon">
+                    <p><a href="mailto:nkcemeka@gmail.com">nkcemeka@gmail.com</a></p>
+                </div>
+    
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" alt="LinkedIn icon"
+                    class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/chukwuemeka-nkama-0203611b2/">LinkedIn</a></p>
+                </div>
+    
+            </div>
+        </section>
+    
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2023 Chukwuemeka Nkama. All Rights Reserved.</p>
+        </footer>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
