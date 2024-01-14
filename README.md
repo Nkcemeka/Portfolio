@@ -32,5 +32,6 @@ The directory structure for this project is shown below.
 Feel free to clone my repo to deploy your website. However, there are a few things you should be aware of. 
 - If you want something exactly similar to Ademir's work, follow [this lesson](https://www.youtube.com/watch?v=ldwlOzRvYOU). 
 - I wasn't satisfied with the responsiveness from the original tutorial and edited it to fit the idiosyncrasies of my images and content. My aim was not to make this generally applicable. Some heuristics were based on the images I had. It might not fit your case. 
-- The code has minimal JavaScript so if you are something more dynamic, this is not for you. 
+- The code has minimal JavaScript so if you want something more dynamic, this is not for you.
+- Big shout-out to my brother for helping me fix some bugs :-)
 - If you are confused about anything or want some help in anything, send me a [mail](mailto:nkcemeka@gmail.com).
