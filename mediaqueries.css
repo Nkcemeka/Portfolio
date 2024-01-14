@@ -180,7 +180,21 @@
     }
 }
 
-@media screen and (min-width:1400px){
+
+@media screen and (min-width:1400px) and (min-height: 1000px){
+    #projects{
+        margin-bottom: 40rem;
+    }
+}
+
+@media screen and (min-width:1400px) and (min-height: 900px) and (max-height: 999px){
+    #projects{
+        margin-bottom: 60rem;
+    }
+}
+
+
+@media screen and (min-width:1400px) and (min-height: 1400px){
     #projects{
         margin-bottom: 20rem;
     }
