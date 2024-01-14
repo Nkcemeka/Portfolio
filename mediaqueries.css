@@ -104,6 +104,10 @@
     #about{
         margin-top: 10rem;
     }
+
+    .details-container{
+        min-width: initial;
+    }
 }
 
 @media screen and (max-width:600px){
