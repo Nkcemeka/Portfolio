@@ -148,9 +148,9 @@ a:hover{
 /* SECTIONS */
 section{
     padding-top: 4vh;
-    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
+    min-height: -moz-fit-content;
     min-height: fit-content;
 }
 
@@ -296,6 +296,7 @@ section{
 .details-container{
     padding: 1.5rem;
     flex: 1;
+    min-width: 250px;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
