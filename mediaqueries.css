@@ -65,11 +65,6 @@
     }
 }
 
-@media screen and (orientation:landscape){
-    #profile{
-        height: 100vh;
-    }
-}
 
 @media screen and (max-width:1024px) and (max-height:800px) {
     #profile{
@@ -167,6 +162,12 @@
 @media screen and (max-width:600px) and (max-height:600px){
     #profile{
         height: 87vh;
+    }
+}
+
+@media screen and (orientation:landscape){
+    #profile{
+        height: 100vh;
     }
 }
 
