@@ -179,3 +179,9 @@
         height: 87vh;
     }
 }
+
+@media screen and (min-width:1400px){
+    #projects{
+        margin-bottom: 20rem;
+    }
+}
