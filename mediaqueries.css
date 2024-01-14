@@ -54,6 +54,10 @@
         margin: 0 auto 2rem;;
     }
 
+    .act-width{
+        width: 275px;
+    }
+
     .about-containers{
         margin-top: 0;
     }
